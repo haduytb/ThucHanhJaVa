@@ -5,12 +5,12 @@ import javax.sound.sampled.SourceDataLine;
 public class App {
    public static void main(String[] args) {
     
-       var scanner = new Scanner(System.in);
+       Scanner scanner = new Scanner(System.in);
        double a;
        double b;
-       System.out.println("Nhap a ");
+       System.out.print("Nhap a ");
        a = scanner.nextDouble();
-       System.out.println("Nhap b ");
+       System.out.print("Nhap b ");
        b = scanner.nextDouble();
        if(a<b){
            System.out.println(a + "<" + b);
