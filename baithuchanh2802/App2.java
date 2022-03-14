@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class App2{
 public static void main(String[] args)throws Exception {
     Scanner sc =new Scanner(System.in);
-    Double a,b,c;
+    double a,b,c;
     do{System.out.print(" so nguyen a: ");
     a = sc.nextDouble();}
     while(a<=0);

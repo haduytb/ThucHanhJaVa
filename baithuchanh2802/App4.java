@@ -7,7 +7,7 @@ public class App4 {
         int n = scanner.nextInt();
         System.out.printf("Tất cả các số nguyên tố nhỏ hơn %d là: \n", n);
         if (n >= 2) {
-            System.out.print(2);
+            System.out.print("2");
         }
         for (int i = 3; i < n; i+=2) {
             if (isPrimeNumber(i)) {
